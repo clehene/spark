@@ -1,0 +1,4 @@
+language: java
+env:
+  global:
+    _JAVA_OPTIONS="-Xmx1500m -XX:MaxPermSize=512m -Dakka.test.timefactor=3"
